@@ -32,7 +32,7 @@ const Main = ({ data }: MainProps) => (
 );
 
 Main.getInitialProps = async () => {
-  const res = await fetch("http://localhost:3000/api/allPosts");
+  const res = await fetch("http://brokenbanana.tech/api/allPosts");
   const data = await res.json();
 
   return { data };
