@@ -1,4 +1,4 @@
-import data from "./_data";
+import data from "../_data";
 
 const getPost = (req: any, res: any) => {
   const {

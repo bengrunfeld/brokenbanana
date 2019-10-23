@@ -1,4 +1,4 @@
-import data from "../data/data";
+import data from "./_data";
 
 const allPosts = (req: any, res: any) => {
   res.json(data);
