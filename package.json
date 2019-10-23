@@ -1,0 +1,24 @@
+{
+  "name": "brokenbanana",
+  "version": "1.0.0",
+  "description": "An online magazine about troubled bananas",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengrunfeld/brokenbanana.git"
+  },
+  "keywords": [
+    "broken",
+    "banana",
+    "fruit"
+  ],
+  "author": "bengrunfeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengrunfeld/brokenbanana/issues"
+  },
+  "homepage": "https://github.com/bengrunfeld/brokenbanana#readme"
+}
