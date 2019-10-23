@@ -4,7 +4,8 @@
   "description": "An online magazine about troubled bananas",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "nowDev": "now dev",
+    "nextDev": "next",
     "build": "next build",
     "start": "next start"
   },
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/bengrunfeld/brokenbanana#readme",
   "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^9.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
