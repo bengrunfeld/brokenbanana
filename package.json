@@ -4,7 +4,9 @@
   "description": "An online magazine about troubled bananas",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/bengrunfeld/brokenbanana/issues"
   },
-  "homepage": "https://github.com/bengrunfeld/brokenbanana#readme"
+  "homepage": "https://github.com/bengrunfeld/brokenbanana#readme",
+  "dependencies": {
+    "next": "^9.1.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.5",
+    "@types/react": "^16.9.9",
+    "typescript": "^3.6.4"
+  }
 }
