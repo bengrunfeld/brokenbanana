@@ -1,6 +1,9 @@
-import styled from "styled-components";
-import { TeaserContent, TeaserProps, HomepageProps } from "./types";
 import { Title } from "./Homepage.styles";
+import { Header } from "../Header";
+import { HeroImage } from "../HeroImage";
+import { TeaserContent, TeaserProps, HomepageProps } from "./types";
+
+import styled from "styled-components";
 
 const Teaser = ({ content }: TeaserProps) => (
   <article>
@@ -11,6 +14,8 @@ const Teaser = ({ content }: TeaserProps) => (
 
 const Homepage = ({ data }: HomepageProps) => (
   <div>
+    <Header />
+    <HeroImage />
     <Title>The Broken Banana</Title>
     <p>An online magazine for troubled bananas</p>
     {data &&
