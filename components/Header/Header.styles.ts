@@ -5,24 +5,30 @@ export const HeaderContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   min-height: 13rem;
+  margin: 1rem 0;
 
   > * {
     flex-basis: 100%;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
 `;
 
 export const HeaderTitle = styled.h1`
-  font-family: "Raleway", sans-serif;
-  font-size: 6rem;
+  font-family: ${({ theme }) => theme.font.title.family};
+  font-size: ${({ theme }) => theme.font.title.size};
   display: inline-block;
-  color: #3d3d3d;
-  margin: 0;
+  color: ${({ theme }) => theme.colors.siteTitle};
   letter-spacing: 0.6rem;
+
+  @media screen and (min-width: 810px) {
+    font-size: ${({ theme }) => theme.font.title.sizeDesktop};
+  }
 `;
 
 export const Byline = styled.h3`
-  font-size: 2rem;
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
+  font-size: ${({ theme }) => theme.font.byline.size};
+  font-family: ${({ theme }) => theme.font.byline.family};
+  color: ${({ theme }) => theme.colors.black};
 `;

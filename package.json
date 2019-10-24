@@ -8,7 +8,7 @@
     "nextDev": "next",
     "build": "next build",
     "start": "next start",
-    "test": "jest"
+    "test": "jest --env=jsdom"
   },
   "repository": {
     "type": "git",
