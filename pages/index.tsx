@@ -12,6 +12,8 @@ Index.getInitialProps = async () => {
   const res = await fetch("http://brokenbanana.tech/api/allPosts");
   const data = await res.json();
 
+  console.log(data);
+
   return { data };
 };
 
