@@ -17,7 +17,6 @@ export const HeaderContainer = styled.div`
 export const HeaderTitle = styled.h1`
   font-family: ${({ theme }) => theme.font.title.family};
   font-size: ${({ theme }) => theme.font.title.size};
-  display: inline-block;
   color: ${({ theme }) => theme.colors.siteTitle};
   letter-spacing: 0.6rem;
   text-align: center;
