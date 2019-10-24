@@ -2,7 +2,7 @@ import React from "react";
 import { mount } from "enzyme";
 import fetch from "isomorphic-unfetch";
 
-import Index from "../index";
+import Index from "./index";
 
 describe("Index", () => {
   it("renders successfully", async () => {
