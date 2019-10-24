@@ -18,5 +18,8 @@ export const theme = {
     white: "ffffff",
     primary: "#0070f3",
     siteTitle: "#3d3d3d"
+  },
+  device: {
+    large: "768px;"
   }
 };

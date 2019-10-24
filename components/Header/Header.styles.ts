@@ -21,7 +21,7 @@ export const HeaderTitle = styled.h1`
   letter-spacing: 0.6rem;
   text-align: center;
 
-  @media screen and (min-width: 810px) {
+  @media screen and (min-width: 768px) {
     font-size: ${({ theme }) => theme.font.title.sizeDesktop};
   }
 `;

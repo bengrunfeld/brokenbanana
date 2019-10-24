@@ -1,14 +1,5 @@
-export type TeaserContent = {
-  id: string;
-  title: string;
-  excerpt: string;
-};
-
-export type TeaserProps = {
-  content: TeaserContent;
-};
+import { TeaserContent } from "../Teaser/types";
 
 export type HomepageProps = {
   data: TeaserContent[];
 };
-
