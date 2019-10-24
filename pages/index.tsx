@@ -28,7 +28,7 @@ const Teaser = ({ content }: TeaserProps) => (
   </article>
 );
 
-const Main = ({ data }: MainProps) => (
+const Index = ({ data }: MainProps) => (
   <div>
     <Title>The Broken Banana</Title>
     <p>An online magazine for troubled bananas</p>
@@ -38,11 +38,11 @@ const Main = ({ data }: MainProps) => (
   </div>
 );
 
-Main.getInitialProps = async () => {
+Index.getInitialProps = async () => {
   const res = await fetch("http://brokenbanana.tech/api/allPosts");
   const data = await res.json();
 
   return { data };
 };
 
-export default Main;
+export default Index;
