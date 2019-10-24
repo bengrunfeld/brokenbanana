@@ -1,4 +1,11 @@
+import React from "react";
 import fetch from "isomorphic-unfetch";
+import styled from "styled-components";
+
+const Title = styled.h1`
+  font-family: helvetica;
+  color: darkblue;
+`;
 
 type TeaserContent = {
   id: string;
@@ -23,7 +30,7 @@ const Teaser = ({ content }: TeaserProps) => (
 
 const Main = ({ data }: MainProps) => (
   <div>
-    <h1>The Broken Banana</h1>
+    <Title>The Broken Banana</Title>
     <p>An online magazine for troubled bananas</p>
     {data.map(item => (
       <Teaser key={`teaser-${item.id}`} content={item} />
