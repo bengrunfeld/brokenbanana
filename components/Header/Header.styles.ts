@@ -9,7 +9,6 @@ export const HeaderContainer = styled.div`
 
   > * {
     flex-basis: 100%;
-    text-align: center;
     margin: 0;
     padding: 0;
   }
@@ -21,6 +20,7 @@ export const HeaderTitle = styled.h1`
   display: inline-block;
   color: ${({ theme }) => theme.colors.siteTitle};
   letter-spacing: 0.6rem;
+  text-align: center;
 
   @media screen and (min-width: 810px) {
     font-size: ${({ theme }) => theme.font.title.sizeDesktop};
@@ -31,4 +31,5 @@ export const Byline = styled.h3`
   font-size: ${({ theme }) => theme.font.byline.size};
   font-family: ${({ theme }) => theme.font.byline.family};
   color: ${({ theme }) => theme.colors.black};
+  text-align: center;
 `;
