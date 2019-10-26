@@ -4,6 +4,16 @@ export const ArticleContainer = styled.article`
   display: flex;
   align-items: center;
   width: 100%;
+
+  :not(:last-child) {
+    border-bottom: 1px solid #e3e3e3;
+  }
+
+  @media screen and (min-width: 768px) {
+    :not(:last-child) {
+      border-bottom: none;
+    }
+  }
 `;
 
 export const ImgContainer = styled.div`
