@@ -1,6 +1,6 @@
 # The Broken Banana
 
-A mobile-first online magazine for troubled fruit.
+A mobile-first online magazine for nervous fruit.
 
 ## Run locally
 
