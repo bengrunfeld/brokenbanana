@@ -14,5 +14,5 @@ export const SectionTitle = styled.h2`
   font-size: ${({ theme }) => theme.font.byline.size};
   color: ${({ theme }) => theme.colors.black};
   margin: 0;
-  padding: 4rem 2rem 0 2rem;
+  padding: 4rem 2rem 2rem 2rem;
 `;

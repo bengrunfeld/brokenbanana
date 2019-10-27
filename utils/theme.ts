@@ -1,6 +1,6 @@
 export const theme = {
-  spacing: {
-    padding: "1rem"
+  layout: {
+    contentWidth: "80rem"
   },
   font: {
     title: {
@@ -11,11 +11,15 @@ export const theme = {
     byline: {
       size: "2rem",
       family: "Montserrat, sans-serif"
+    },
+    paragraph: {
+      size: "1.5rem",
+      family: "Helvetica"
     }
   },
   colors: {
     black: "#000000",
-    white: "ffffff",
+    white: "#ffffff",
     primary: "#0070f3",
     siteTitle: "#3d3d3d"
   },

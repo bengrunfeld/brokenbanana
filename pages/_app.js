@@ -1,7 +1,7 @@
 import App from "next/app";
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import { theme } from "../assets/theme";
+import { theme } from "../utils/theme";
 
 export default class MyApp extends App {
   render() {
