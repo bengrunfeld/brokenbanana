@@ -27,7 +27,6 @@
   "homepage": "https://github.com/bengrunfeld/brokenbanana#readme",
   "dependencies": {
     "@now/node": "^1.0.2",
-    "@types/uuid": "^3.4.5",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^9.1.1",
     "react": "^16.11.0",
@@ -41,6 +40,7 @@
     "@types/react": "^16.9.9",
     "@types/react-dom": "^16.9.2",
     "@types/styled-components": "^4.1.19",
+    "@types/uuid": "^3.4.5",
     "babel-jest": "^24.9.0",
     "babel-plugin-styled-components": "^1.10.6",
     "enzyme": "^3.10.0",
