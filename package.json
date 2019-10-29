@@ -4,7 +4,7 @@
   "description": "An online magazine about troubled bananas",
   "main": "index.js",
   "scripts": {
-    "nowDev": "now dev",
+    "now": "now dev",
     "dev": "next",
     "build": "next build",
     "start": "next start",

@@ -6,7 +6,7 @@ export const theme = {
     title: {
       size: "4rem",
       sizeDesktop: "6rem",
-      family: "sans-serif"
+      family: "Raleway, sans-serif"
     },
     byline: {
       size: "2rem",

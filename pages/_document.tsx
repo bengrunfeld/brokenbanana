@@ -1,5 +1,6 @@
 import Document, { DocumentContext } from "next/document";
 import { ServerStyleSheet } from "styled-components";
+import { Head } from "./_document.styles.ts";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -14,25 +15,15 @@ export default class MyDocument extends Document {
 
       const initialProps = await Document.getInitialProps(ctx);
 
+      console.log("---->>> Check");
+
       return {
         ...initialProps,
         styles: (
           <>
             {initialProps.styles}
             {sheet.getStyleElement()}
-            <style global jsx>{`
-              @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-              @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
-              html {
-                font-size: 10px;
-              }
-
-              body {
-                padding: 0;
-                margin: 0;
-              }
-            `}</style>
+            <meta name="author" content="Ben Grunfeld" />
           </>
         )
       };

@@ -12,7 +12,6 @@ import {
 
 const Article = ({ content }: any) => {
   const paragraphs = content.text.split("\n");
-  console.log(paragraphs);
 
   return (
     <ArticleLayout>
@@ -23,7 +22,7 @@ const Article = ({ content }: any) => {
       <ContentContainer>
         {paragraphs &&
           paragraphs.map((item: string) => (
-            <ArticleContent key={uuid()}>{item}</ArticleContent>
+            <ArticleContent key={`para-${uuid()}`}>{item}</ArticleContent>
           ))}
       </ContentContainer>
     </ArticleLayout>
