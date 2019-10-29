@@ -23,4 +23,8 @@ export const HomeLink = styled.a`
   font-size: ${({ theme }) => theme.font.paragraph.size};
   color: ${({ theme }) => theme.colors.siteTitle};
   cursor: pointer;
+
+  &:hover {
+    font-weight: bold;
+  }
 `;

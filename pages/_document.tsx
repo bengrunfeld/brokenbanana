@@ -15,8 +15,6 @@ export default class MyDocument extends Document {
 
       const initialProps = await Document.getInitialProps(ctx);
 
-      console.log("---->>> Check");
-
       return {
         ...initialProps,
         styles: (

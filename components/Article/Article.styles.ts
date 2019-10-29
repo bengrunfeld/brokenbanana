@@ -24,11 +24,15 @@ export const ContentContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 3rem;
 `;
 
 export const ArticleContent = styled.p`
   font-family: ${({ theme }) => theme.font.paragraph.family};
   font-size: ${({ theme }) => theme.font.paragraph.size};
+  width: 100%;
+  padding: 0 2rem 2rem 2rem;
+  line-height: 2rem;
 
   @media screen and (min-width: 768px) {
     max-width: ${({ theme }) => theme.layout.contentWidth};

@@ -21,9 +21,12 @@ const Article = ({ content }: any) => {
       </TitleContainer>
       <ContentContainer>
         {paragraphs &&
-          paragraphs.map((item: string) => (
-            <ArticleContent key={`para-${uuid()}`}>{item}</ArticleContent>
-          ))}
+          paragraphs.map(
+            (item: string) =>
+              item && (
+                <ArticleContent key={`para-${uuid()}`}>{item}</ArticleContent>
+              )
+          )}
       </ContentContainer>
     </ArticleLayout>
   );

@@ -7,6 +7,9 @@ const data = [
     img: "/img1.jpg",
     text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at ultricies magna. Vivamus eget nibh porta, congue nisi a, ultrices arcu. Proin vel odio libero. Praesent eu vestibulum turpis, nec faucibus urna. Curabitur maximus tristique ipsum vitae malesuada. Vestibulum condimentum faucibus ullamcorper. Interdum et malesuada fames ac ante ipsum primis in faucibus. In sollicitudin lorem ante, ut faucibus odio molestie in. In hac habitasse platea dictumst. Sed pretium quam ex, et posuere orci luctus in. Nulla sit amet velit eu diam mollis sollicitudin et non purus. Integer laoreet consectetur dictum. Nunc blandit maximus nisi, et aliquet tellus rutrum vitae.
 
+
+
+
 Nullam vehicula id velit et maximus. Duis tincidunt arcu a pharetra dictum. Duis aliquet augue a posuere ornare. Aliquam id sapien ut dolor pellentesque rhoncus vitae quis elit. Nulla nec turpis arcu. Aliquam consectetur leo nunc, a malesuada sapien finibus at. Vestibulum sollicitudin dapibus lorem sit amet dictum. Donec cursus tellus et nisl aliquam, nec venenatis risus pretium. Donec fermentum tempus erat bibendum sagittis. Nulla facilisi. Cras porta nisl id felis rhoncus ultrices. Proin ut efficitur lectus. Vivamus eu nunc purus. Nullam ut dolor orci. Duis cursus ante ac fringilla sagittis.
 
 Nam vestibulum urna vel nisi sagittis rutrum. Nullam quam elit, fringilla tempus scelerisque id, vestibulum a diam. Aliquam eu placerat nibh. Suspendisse rhoncus sapien vel varius tristique. Donec convallis eu enim a varius. Integer iaculis lacus porta sapien hendrerit imperdiet. Donec et auctor lorem, nec molestie nulla. Etiam aliquet lectus ac elementum tempus. Praesent a consequat ipsum, a condimentum sapien.

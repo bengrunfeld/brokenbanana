@@ -14,7 +14,7 @@ export const theme = {
     },
     paragraph: {
       size: "1.5rem",
-      family: "Helvetica"
+      family: "Montserrat, sans-serif"
     }
   },
   colors: {
