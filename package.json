@@ -4,8 +4,8 @@
   "description": "An online magazine about troubled bananas",
   "main": "index.js",
   "scripts": {
-    "nowDev": "now dev",
-    "nextDev": "next",
+    "now": "now dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "test": "jest"
@@ -31,7 +31,8 @@
     "next": "^9.1.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
-    "styled-components": "^4.4.0"
+    "styled-components": "^4.4.0",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
@@ -39,6 +40,7 @@
     "@types/react": "^16.9.9",
     "@types/react-dom": "^16.9.2",
     "@types/styled-components": "^4.1.19",
+    "@types/uuid": "^3.4.5",
     "babel-jest": "^24.9.0",
     "babel-plugin-styled-components": "^1.10.6",
     "enzyme": "^3.10.0",

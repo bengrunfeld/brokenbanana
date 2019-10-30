@@ -20,19 +20,7 @@ export default class MyDocument extends Document {
           <>
             {initialProps.styles}
             {sheet.getStyleElement()}
-            <style global jsx>{`
-              @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-              @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
-
-              html {
-                font-size: 10px;
-              }
-
-              body {
-                padding: 0;
-                margin: 0;
-              }
-            `}</style>
+            <meta name="author" content="Ben Grunfeld" />
           </>
         )
       };

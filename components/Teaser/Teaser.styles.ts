@@ -4,6 +4,7 @@ export const ArticleContainer = styled.article`
   display: flex;
   align-items: center;
   width: 100%;
+  cursor: pointer;
 
   :not(:last-child) {
     border-bottom: 1px solid #e3e3e3;

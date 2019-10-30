@@ -1,7 +1,7 @@
 import App from "next/app";
 import React from "react";
 import { ThemeProvider } from "styled-components";
-import { theme } from "../assets/theme";
+import { theme } from "../utils/theme";
 
 export default class MyApp extends App {
   render() {
@@ -9,6 +9,29 @@ export default class MyApp extends App {
     return (
       <ThemeProvider theme={theme}>
         <Component {...pageProps} />
+        <style global jsx>{`
+          @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+          @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+          html {
+            font-size: 10px;
+          }
+
+          html,
+          body,
+          h1,
+          h2,
+          h3,
+          h4,
+          h5,
+          p,
+          a,
+          ul,
+          li {
+            margin: 0;
+            body: 0;
+          }
+        `}</style>
       </ThemeProvider>
     );
   }

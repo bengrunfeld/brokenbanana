@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { TeaserContent, TeaserProps } from "./types";
 import {
   ArticleContainer,
@@ -8,13 +9,15 @@ import {
 } from "./Teaser.styles";
 
 const Teaser = ({ content }: TeaserProps) => (
-  <ArticleContainer>
-    <ImgContainer>
-      <TeaserImg src={content.img} />
-    </ImgContainer>
-    <TeaserTitle>{content.title}</TeaserTitle>
-    <TeaserExcerpt>{content.excerpt}</TeaserExcerpt>
-  </ArticleContainer>
+  <Link href={`/article?post=${content.id}`}>
+    <ArticleContainer>
+      <ImgContainer>
+        <TeaserImg src={content.img} />
+      </ImgContainer>
+      <TeaserTitle>{content.title}</TeaserTitle>
+      <TeaserExcerpt>{content.excerpt}</TeaserExcerpt>
+    </ArticleContainer>
+  </Link>
 );
 
 export default Teaser;
